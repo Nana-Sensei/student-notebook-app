@@ -14,7 +14,6 @@
 
 .all-notes {
   padding-top: 72px;
-
 }
 
 .note-form {
@@ -57,7 +56,6 @@
 
 .add-btn:hover {
   background-color: #51536a;
-
 }
 
 .header {
@@ -69,18 +67,18 @@
   text-align: center;
 }
 
-
-
 .note-card {
   padding: 20px;
-  border-radius: 20px; 
+  border-radius: 20px;
   color: white;
-  margin-left: 40px; margin-bottom: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
   background-color: #222438;
-  min-height: 170px; width: 200px;
-  display: flex; flex-direction: column;
+  min-height: 170px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .delete-btn {
@@ -88,10 +86,18 @@
 }
 
 .note-header {
-  display: flex; justify-content: space-between;
-  margin-bottom: 15px; align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: flex-end;
 }
 
 .note-text {
   margin-bottom: 20px;
+}
+
+.note-footer {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
